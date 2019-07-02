@@ -11,30 +11,30 @@
   <meta property = 'og:type' content = 'article' />
   <meta property = 'og:title' content = '(Hu)go Template Primer' />
   <meta property = 'og:description' content = 'Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of …'>
-  <meta property = 'og:url' content = 'https://sfblack8.github.io/post/goisforlovers/' />
-  <meta property = 'og:image' content = 'https://sfblack8.github.io/images/fast-lane.jpg'/>
+  <meta property = 'og:url' content = 'https://sfblack8.com/post/goisforlovers/' />
+  <meta property = 'og:image' content = 'https://sfblack8.com/images/fast-lane.jpg'/>
 
 
-  <link rel="apple-touch-icon" sizes="180x180" href = 'https://sfblack8.github.io/images/icons/apple-touch-icon.png'>
-  <link rel="icon" type="image/png" sizes="32x32" href = 'https://sfblack8.github.io/images/icons/favicon-32x32.png'>
-  <link rel="icon" type="image/png" sizes="16x16" href= 'https://sfblack8.github.io/images/icons/favicon-16x16.png'>
-  <link rel='canonical' href="https://sfblack8.github.io/post/goisforlovers/">
-  <link rel = 'stylesheet' href = 'https://sfblack8.github.io/main.d1a43cd182f09504001547b0af2587a6ce2d6288742b994386cc1fdfc4fac5913305c940b2fc95d93b4eb176b591400558b3bcf412ca03aad8448cb3069dd630.css' integrity = 'sha512-0aQ80YLwlQQAFUewryWHps4tYoh0K5lDhswf38T6xZEzBclAsvyV2TtOsXa1kUAFWLO89BLKA6rYRIyzBp3WMA=='>
+  <link rel="apple-touch-icon" sizes="180x180" href = 'https://sfblack8.com/images/icons/apple-touch-icon.png'>
+  <link rel="icon" type="image/png" sizes="32x32" href = 'https://sfblack8.com/images/icons/favicon-32x32.png'>
+  <link rel="icon" type="image/png" sizes="16x16" href= 'https://sfblack8.com/images/icons/favicon-16x16.png'>
+  <link rel='canonical' href="https://sfblack8.com/post/goisforlovers/">
+  <link rel = 'stylesheet' href = 'https://sfblack8.com/main.d1a43cd182f09504001547b0af2587a6ce2d6288742b994386cc1fdfc4fac5913305c940b2fc95d93b4eb176b591400558b3bcf412ca03aad8448cb3069dd630.css' integrity = 'sha512-0aQ80YLwlQQAFUewryWHps4tYoh0K5lDhswf38T6xZEzBclAsvyV2TtOsXa1kUAFWLO89BLKA6rYRIyzBp3WMA=='>
 </head>
 
   <body>
     <div class = 'nav-drop'>
   <div class = 'nav-body'>
   
-    <a href = 'https://sfblack8.github.io//about/'>About</a>
+    <a href = 'https://sfblack8.com//about/'>About</a>
   
-    <a href = 'https://sfblack8.github.io//'>Blog</a>
+    <a href = 'https://sfblack8.com//'>Blog</a>
   
-    <a href = 'https://sfblack8.github.io//categories/development/'>Category A</a>
+    <a href = 'https://sfblack8.com//categories/development/'>Category A</a>
   
-    <a href = 'https://sfblack8.github.io//categories/golang/'>Category B</a>
+    <a href = 'https://sfblack8.com//categories/golang/'>Category B</a>
   
-    <a href = 'https://sfblack8.github.io//tags/go/'>Tag B</a>
+    <a href = 'https://sfblack8.com//tags/go/'>Tag B</a>
   
     <div class = 'nav-close'></div>
   </div>
@@ -42,14 +42,14 @@
 
     <header class = 'nav' >
   <nav class = 'nav-menu'>
-    <a href='https://sfblack8.github.io/' class = 'nav-brand'>三番黑八团</a>
+    <a href='https://sfblack8.com/' class = 'nav-brand'>三番黑八团</a>
     <div class = 'nav-bar'>&#9776;</div>
   </nav>
 </header>
 
     <main>
       
-<section class = 'post_header' style = 'background-image:url(https://sfblack8.github.io/images/fast-lane.jpg);'>
+<section class = 'post_header' style = 'background-image:url(https://sfblack8.com/images/fast-lane.jpg);'>
   <h1 class='post_title' itemprop='name headline'>(Hu)go Template Primer</h1>
   
   
@@ -106,7 +106,7 @@ functions.</p>
 <p>Each Go template has a struct (object) made available to it. In hugo each
 template is passed either a page or a node struct depending on which type of
 page you are rendering. More details are available on the
-<a href="https://sfblack8.github.io/layout/variables">variables</a> page.</p>
+<a href="https://sfblack8.com/layout/variables">variables</a> page.</p>
 
 <p>A variable is accessed by referencing the variable name.</p>
 <div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;title&gt;{{ .Title }}&lt;/title&gt;</pre></div>
@@ -117,7 +117,7 @@ page you are rendering. More details are available on the
 
 <p>Go template ship with a few functions which provide basic functionality. The Go
 template system also provides a mechanism for applications to extend the
-available functions with their own. <a href="https://sfblack8.github.io/layout/functions">Hugo template
+available functions with their own. <a href="https://sfblack8.com/layout/functions">Hugo template
 functions</a> provide some additional functionality we believe
 are useful for building websites. Functions are called by using their name
 followed by the required parameters separated by spaces. Template
@@ -257,7 +257,7 @@ you want to inside of your templates.</p>
 <h2 id="using-content-page-parameters">Using Content (page) Parameters</h2>
 
 <p>In each piece of content you can provide variables to be used by the
-templates. This happens in the <a href="https://sfblack8.github.io/content/front-matter">front matter</a>.</p>
+templates. This happens in the <a href="https://sfblack8.com/content/front-matter">front matter</a>.</p>
 
 <p>An example of this is used in this documentation site. Most of the pages
 benefit from having the table of contents provided. Sometimes the TOC just
@@ -321,12 +321,12 @@ so, such as in this example:</p>
     <ul class='flex post_aside'>
       
        <li class = 'duo post_item'>
-  <a class = 'show' href='https://sfblack8.github.io/post/creating-a-new-theme/' title = 'Creating a New Theme' style = 'background-image: url(https://sfblack8.github.io/images/artist.jpg);'>
+  <a class = 'show' href='https://sfblack8.com/post/creating-a-new-theme/' title = 'Creating a New Theme' style = 'background-image: url(https://sfblack8.com/images/artist.jpg);'>
   </a>
   <div class = 'excerpt'>
     
     <h3 class = 'post_link'>
-      <a href='https://sfblack8.github.io/post/creating-a-new-theme/'>Creating a New Theme</a>
+      <a href='https://sfblack8.com/post/creating-a-new-theme/'>Creating a New Theme</a>
     </h3>
     <p class = 'pale'>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume …</p>
   </div>
@@ -334,12 +334,12 @@ so, such as in this example:</p>
 
       
        <li class = 'duo post_item'>
-  <a class = 'show' href='https://sfblack8.github.io/about/' title = 'About Hugo' style = 'background-image: url(https://sfblack8.github.io/images/read.jpg);'>
+  <a class = 'show' href='https://sfblack8.com/about/' title = 'About Hugo' style = 'background-image: url(https://sfblack8.com/images/read.jpg);'>
   </a>
   <div class = 'excerpt'>
     
     <h3 class = 'post_link'>
-      <a href='https://sfblack8.github.io/about/'>About Hugo</a>
+      <a href='https://sfblack8.com/about/'>About Hugo</a>
     </h3>
     <p class = 'pale'>Hugo is the world’s fastest framework for building websites. It is written in Go.
 It makes …</p>
@@ -350,8 +350,8 @@ It makes …</p>
     </ul>
   </aside>
 </div>
-<script src = 'https://sfblack8.github.io/js/autosize.min.js'></script>
-<script src = 'https://sfblack8.github.io/js/timeago.js'></script>
+<script src = 'https://sfblack8.com/js/autosize.min.js'></script>
+<script src = 'https://sfblack8.com/js/timeago.js'></script>
 
     </main>
     <footer class = 'footer'>
@@ -361,7 +361,7 @@ It makes …</p>
   </div>
 </footer>
 <script src = 'https://code.jquery.com/jquery-3.1.0.min.js'   integrity='sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s='   crossorigin='anonymous'></script>
-<script src = 'https://sfblack8.github.io/js/index.js'></script>
+<script src = 'https://sfblack8.com/js/index.js'></script>
 
   </body>
 </html>
